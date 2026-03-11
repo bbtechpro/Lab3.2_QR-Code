@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #e0e8f9;
+}
+
+.card {
+    flex-grow: 1;
+    width: 300px;
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.qr-code img { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.info {
+    text-align: center;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* .info h3 
+{ 
+    font-size: 1.5em;
+} */
+
+@media (min-width: 600px)
+{
+    .card {
+        width: 350px;
+    }
+}
+    
