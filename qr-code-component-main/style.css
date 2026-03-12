@@ -53,11 +53,6 @@ body {
     padding-right: 1em;
 }
 
-/* .info h3 
-{ 
-    font-size: 1.5em;
-} */
-
 @media (min-width: 600px)
 {
     .card {
